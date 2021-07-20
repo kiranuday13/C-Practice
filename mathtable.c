@@ -1,9 +1,11 @@
 #include<stdio.h>
 void table(int x)
 {
-	int i;
-	for(i=1;i<=10;i++)
-	printf("%d*%d=%d\n",x,i,x*i);
+	int j;
+	for(j=1;j<=10;j++)
+	printf("%d*%d=%d\n",x,j,x*j);
+
+	printf("Hello");
 }
 /*main()
 {
